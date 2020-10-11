@@ -6,8 +6,8 @@ import random
 root = tkinter.Tk()
 root.title('Simon Memory Game')
 root.iconbitmap('simon.ico')
-#root.geometry('400x400')
-root.geometry("450x450+700+250")
+root.geometry('400x400')
+#root.geometry("450x450+700+250")
 root.resizable(0,0)
 #Define fonts and colors
 game_font1 = ('Arial', 12)
